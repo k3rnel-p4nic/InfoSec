@@ -1,0 +1,2 @@
+In search:
+<script>alert('xss')</script>

